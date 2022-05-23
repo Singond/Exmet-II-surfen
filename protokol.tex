@@ -1,0 +1,64 @@
+\documentclass{protokol}
+
+\usepackage[czech]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage{icomma}
+
+% Plovouci bloky (obrazky, tabulky)
+\usepackage{floatrow}
+\floatsetup[table]{capposition=top}
+\floatsetup[figure]{frameset={\fboxsep16pt}}
+\usepackage{subcaption}
+
+% Tabulky
+\usepackage{tabu}
+\usepackage{booktabs}
+\usepackage{csvsimple}
+\usepackage{multirow}
+\usepackage{multicol}
+
+% Jednotky
+\usepackage{siunitx}
+\sisetup{
+	locale               = DE,
+	inter-unit-product   = \ensuremath{{}\cdot{}},
+	list-units           = single,
+	list-separator       = {; },
+	list-final-separator = \text{ a },
+	list-pair-separator  = \text{ a },
+	range-phrase         = \text{ až },
+	range-units          = single,
+}
+\usepackage{amsmath}
+
+% Obvody
+\usepackage{circuitikz}
+
+% Obrazky a grafy
+% \usepackage{graphicx}
+\graphicspath{
+	{plots/}
+	{build/plots/}
+}
+\usepackage{epstopdf}
+\epstopdfsetup{outdir=./build/plots/}
+
+\jmenopraktika={Experimentální metody}
+\jmeno={Radek Horňák, Jan Slaný, Lukáš Vrána}
+\obor={Fyzika plazmatu}
+\skupina={Pá 8:00}
+\rocnik={IV}
+\semestr={VIII}
+
+\cisloulohy={}
+\jmenoulohy={Měření povrchové energie}
+
+\datum={17. května 2022}
+\tlak={}% [hPa]
+\teplota={}% [C]
+\vlhkost={}% [%]
+
+\begin{document}
+\header
+
+\end{document}
