@@ -1,0 +1,163 @@
+ Report of Free Surface Energy Measurement
+ Created with See Software 7.0 on 17.5.2022, 12:38:47.
+
+ 1. Calculated contact angles []
+
+    1: water                     102.37  ± 4.00    99.9%
+    2: ethylene glycol           88.13  ± 4.36    99.9%
+    3: diiodomethane             76.65  ± 4.25    99.9%
+    4: glycerol                  99.45  ± 5.65    99.9%
+    5: formamide                 90.54  ± 2.45    99.9%
+    6: a-bromonaphthalene        67.74  ± 2.75    99.9%
+
+ 2. Calculated free surface energy [mJ/m^2], Zisman model
+
+                              g         Sg-       Sg+
+ ---------------------------------------------------------------------------
+    gtotal                   5.67     16.90     16.90  68.3%
+    b                        0.02      0.01      0.01  68.3%
+    correl                   0.89
+
+ ===========================================================================
+ Report of Free Surface Energy Measurement
+ Created with See Software 7.0 on 17.5.2022, 12:40:52.
+
+ 1. Calculated contact angles []
+
+    1: water                     102.37  ± 4.00    99.9%
+    2: ethylene glycol           88.13  ± 4.36    99.9%
+    3: diiodomethane             76.65  ± 4.25    99.9%
+    4: glycerol                  99.45  ± 5.65    99.9%
+    5: formamide                 90.54  ± 2.45    99.9%
+    6: a-bromonaphthalene        67.74  ± 2.75    99.9%
+
+ 2. Calculated free surface energy [mJ/m^2], Wu-Equation of State model
+
+    liquid                    g         Sg-       Sg+
+ ---------------------------------------------------------------------------
+    1: water                11.24      1.34      2.16
+    2: ethylene glycol      12.80      1.96      2.17
+    3: diiodomethane        19.24      2.05      2.63
+    4: glycerol             11.18      2.85      3.06
+    5: formamide            14.23      1.48      1.53
+    6: a-bromonaphthalene     21.10      1.77      1.39
+ ---------------------------------------------------------------------------
+    max                     21.10      1.77      1.39
+
+ ===========================================================================
+ Report of Free Surface Energy Measurement
+ Created with See Software 7.0 on 17.5.2022, 12:41:38.
+
+ 1. Calculated contact angles []
+
+    1: water                     102.37  ± 4.00    99.9%
+    2: ethylene glycol           88.13  ± 4.36    99.9%
+    3: diiodomethane             76.65  ± 4.25    99.9%
+    4: glycerol                  99.45  ± 5.65    99.9%
+    5: formamide                 90.54  ± 2.45    99.9%
+    6: a-bromonaphthalene        67.74  ± 2.75    99.9%
+
+ 2. Calculated free surface energy [mJ/m^2], Owens-Wendt Regression model
+
+    component                 g         Sg-       Sg+
+ ---------------------------------------------------------------------------
+    gtotal                  18.96      3.06      3.06  68.3%
+    gLW                     18.27      2.98      2.98  68.3%
+    gAB                      0.69      0.68      0.68  68.3%
+    correl                   0.76
+
+ ===========================================================================
+ Report of Free Surface Energy Measurement
+ Created with See Software 7.0 on 17.5.2022, 12:41:59.
+
+ 1. Calculated contact angles []
+
+    1: water                     102.37  ± 4.00    99.9%
+    2: ethylene glycol           88.13  ± 4.36    99.9%
+    3: diiodomethane             76.65  ± 4.25    99.9%
+
+ 2. Calculated free surface energy [mJ/m^2], Acid-base model
+
+    component                 g         Sg-       Sg+
+ ---------------------------------------------------------------------------
+    gtotal                  21.00      3.73     10.85
+    gLW                     19.24      2.05      2.63
+    gAB                      1.76      1.71      8.23
+    g+                       0.19      0.19      2.04
+    g-                       4.16      3.22      7.06
+
+ ===========================================================================
+ Report of Free Surface Energy Measurement
+ Created with See Software 7.0 on 17.5.2022, 12:42:04.
+
+ 1. Calculated contact angles []
+
+    1: water                     102.37  ± 4.00    99.9%
+    2: ethylene glycol           88.13  ± 4.36    99.9%
+    3: diiodomethane             76.65  ± 4.25    99.9%
+    4: glycerol                  99.45  ± 5.65    99.9%
+    5: formamide                 90.54  ± 2.45    99.9%
+    6: a-bromonaphthalene        67.74  ± 2.75    99.9%
+
+ 2. Calculated free surface energy [mJ/m^2], Acid-Base Regression model
+
+    component                 g         Sg-       Sg+
+ ---------------------------------------------------------------------------
+    gtotal                  22.10      1.08      1.08  68.3%
+    gLW                     20.37      0.91      0.91  68.3%
+    gAB                      1.73      0.58      0.58  68.3%
+    g+                       0.20      0.13      0.13  68.3%
+    g-                       3.73      0.80      0.80  68.3%
+
+ ===========================================================================
+ Report of Free Surface Energy Measurement
+ Created with See Software 7.0 on 17.5.2022, 12:42:20.
+
+ 1. Calculated contact angles []
+
+    1: water                     102.37  ± 4.00    99.9%
+    2: ethylene glycol           88.13  ± 4.36    99.9%
+    3: diiodomethane             76.65  ± 4.25    99.9%
+    4: glycerol                  99.45  ± 5.65    99.9%
+    5: formamide                 90.54  ± 2.45    99.9%
+    6: a-bromonaphthalene        67.74  ± 2.75    99.9%
+
+ 2. Calculated free surface energy [mJ/m^2], Kwok-Neumann model
+
+    liquid                    g         Sg-       Sg+
+ ---------------------------------------------------------------------------
+    1: water                21.53      1.60      2.43
+    2: ethylene glycol      16.06      2.02      2.15
+    3: diiodomethane        22.87      1.91      2.37
+    4: glycerol             18.38      3.42      3.30
+    5: formamide            19.87      1.53      1.52
+    6: a-bromonaphthalene     23.24      1.61      1.26
+ ---------------------------------------------------------------------------
+    mean                    20.33      0.86      0.93
+
+ ===========================================================================
+ Report of Free Surface Energy Measurement
+ Created with See Software 7.0 on 17.5.2022, 12:42:26.
+
+ 1. Calculated contact angles []
+
+    1: water                     102.37  ± 4.00    99.9%
+    2: ethylene glycol           88.13  ± 4.36    99.9%
+    3: diiodomethane             76.65  ± 4.25    99.9%
+    4: glycerol                  99.45  ± 5.65    99.9%
+    5: formamide                 90.54  ± 2.45    99.9%
+    6: a-bromonaphthalene        67.74  ± 2.75    99.9%
+
+ 2. Calculated free surface energy [mJ/m^2], Li-Neumann model
+
+    liquid                    g         Sg-       Sg+
+ ---------------------------------------------------------------------------
+    1: water                21.59      1.69      2.58
+    2: ethylene glycol      16.42      2.05      2.17
+    3: diiodomethane        23.26      1.91      2.36
+    4: glycerol             18.66      3.54      3.43
+    5: formamide            20.29      1.56      1.55
+    6: a-bromonaphthalene     23.51      1.60      1.24
+ ---------------------------------------------------------------------------
+    mean                    20.62      0.88      0.95
+

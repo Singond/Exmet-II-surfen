@@ -1,0 +1,19 @@
+#======================================================================
+#    Time       Angle       Width     Height     Radius    Filename    
+#    [s]      [degree]      [px]       [px]       [px]                 
+#======================================================================
+# File version: 1
+# This file was created with See Software 7.0, program for
+# contact angle measurements, on 17.5.2022, 12:45:33.
+# Used liquid: ethylene glycol
+#======================================================================
+ 41049.657      90.991      64.008     32.562     32.009   ethylenglykol_000.jpg
+ 41076.919      91.709      66.030     34.015     33.030   ethylenglykol_001.jpg
+ 41087.418      89.092      62.008     30.516     31.008   ethylenglykol_002.jpg
+ 41095.842      88.454      75.060     36.531     37.544   ethylenglykol_003.jpg
+ 41103.330      92.855      60.208     31.643     30.141   ethylenglykol_004.jpg
+ 41121.794      85.140      73.335     33.682     36.800   ethylenglykol_005.jpg
+ 41130.386      89.016      64.382     31.642     32.196   ethylenglykol_006.jpg
+ 41148.546      83.284      71.021     31.574     35.756   ethylenglykol_007.jpg
+ 41211.867      87.238      66.940     31.894     33.509   ethylenglykol_009.jpg
+ 41170.473      83.519      69.231     30.906     34.838   ethylenglykol_008.jpg
