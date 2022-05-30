@@ -39,6 +39,7 @@
 \graphicspath{
 	{plots/}
 	{build/plots/}
+	{img/}
 }
 \usepackage{epstopdf}
 \epstopdfsetup{outdir=./build/plots/}
@@ -60,5 +61,51 @@
 
 \begin{document}
 \header
+\section{Úvod}
+
+\section{Praktická část}
+\par Pro měření povrchové energie byl použit přístroj See System, viz 
+obr.~\ref{ss}. Přístroj je složen ze stolku o~velikosti $10 \times 10$~cm, 
+který lze dvěma stavěcími šrouby posouvat do všech směrů, a 2Mpix kamery, která 
+snímá povrch. Na stolek se položí substrát, jehož povrchovou energii chceme 
+zkoumat. Mikropipetou se nanese na povrch kapka a stolek se stavěcími šrouby 
+naladí tak, aby kamera ostře snímala kapku na povrchu. Přístroj je připojen USB 
+portem k~počítači, který pomocí příslušného softwaru dokáže ovládat kameru. 
+Jakmile je kapka ostře vidět, přes software uložíme fotku z~kamery a dále 
+zpracujeme. Na kapce zvolíme ručně tři body -- dvě na rozhraní pevná látka -- 
+kapalina -- plyn a třetí bod na vrcholu kapky, čímž určíme kontaktní úhel pro 
+danou testovací kapalinu, viz obr.~\ref{ssw}. Pokud toto uděláme pro kapky 
+alespoň dvou různých kapalin, software dokáže spočítat povrchovou energii.
+
+\par Měřili jsme povrchovou energii teflonu. Před měřením jsme povrch očistili 
+isopropylalkoholem. Následně jsme měřili kontaktní úhel šesti testovacích 
+kapalin: voda, ethylenglykol, dijodomethan, glycerol, formamid, 
+$\alpha$-bromnaftalen, kde u každé kapaliny jsme naměřili kontaktní úhel 10 
+kapek. Pro výpočet povrchové energie jsme použili několik 
+modelů.
+
+
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=\textwidth]{seesystem.jpg}
+		\captionof{figure}{Přístroj See System pro měření kontaktního úhlu 
+		kapky a určení povrchové energie.}
+		\label{ss}
+	\end{center} 
+\end{figure}
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=\textwidth]{seesystemsw.jpg}
+		\captionof{figure}{Ukázka tříbodového určení kontaktního úhlu pomocí 
+		See System softwaru.}
+		\label{ssw}
+	\end{center} 
+\end{figure}
+
+
+\section{Závěr}
+
 
 \end{document}
