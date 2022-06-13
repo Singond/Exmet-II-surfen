@@ -84,8 +84,6 @@ $\alpha$-bromnaftalen, kde u každé kapaliny jsme naměřili kontaktní úhel 1
 kapek. Pro výpočet povrchové energie jsme použili několik 
 modelů.
 
-
-
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=\textwidth]{seesystem.jpg}
@@ -103,6 +101,65 @@ modelů.
 		\label{ssw}
 	\end{center} 
 \end{figure}
+
+\subsection{Zismanova metoda}
+\begin{equation}
+	\cos\theta \cong -1 + 
+	2\Phi \left( \frac{\gamma_{\text{sv}}} {\gamma_{\text{lv}}} \right) ^{1/2}
+\end{equation}
+\par 
+
+\subsection{Wu metoda}
+\begin{equation}
+	\left(1+\cos\theta\right)\gamma_{\text{l}} = 
+	4\left(\frac{\gamma_{\text{s}}^\text{d}\gamma_{\text{l}}^\text{d}}{\gamma_{\text{s}}^\text{d}
+	 + \gamma_{\text{l}}^\text{d}} + 
+	\frac{\gamma_{\text{s}}^\text{p}\gamma_{\text{l}}^\text{p}}{\gamma_{\text{s}}^\text{p}
+	 + \gamma_{\text{l}}^\text{p}}\right)
+\end{equation}
+\par 
+
+\subsection{Owens-Wendtova regresní metoda}
+\begin{equation}
+	\frac{1+\cos\theta}{2}\frac{\gamma_{\text{l}}}{\sqrt{\gamma_{\text{l}}^\text{d}}}
+	 = \sqrt{\gamma_{\text{s}}^\text{d}} + \sqrt{\gamma_{\text{s}}^\text{p}} 
+	 \sqrt{\frac{\gamma_{\text{l}}^\text{p}}{\gamma_{\text{l}}^\text{d}}}
+\end{equation}
+\par 
+
+\subsection{Acidobazická metoda}
+\begin{equation}
+	\gamma = \gamma^{\text{LW}} + \gamma^{\text{AB}}
+\end{equation}
+\begin{equation}
+	\gamma^{\text{AB}} = 2\sqrt{\gamma^+\gamma^-}
+\end{equation}
+\begin{equation}
+		\left(1+\cos\theta\right)\gamma_{\text{l}} = 
+		2\left(\sqrt{\gamma_\text{l}^{\text{LW}}\gamma_\text{s}^{\text{LW}}} + 
+		\sqrt{\gamma_\text{l}^{\text{+}}\gamma_\text{s}^{\text{-}}} + 
+		\sqrt{\gamma_\text{l}^{\text{-}}\gamma_\text{s}^{\text{+}}}\right)
+\end{equation}
+\par 
+
+\subsection{Kwok-Neumann metoda}
+\begin{equation}
+	\cos\theta = -1 + 
+2 {\left(\frac{\gamma_{\text{sv}}}{\gamma_{\text{lv}}}\right)}^{1/2} 
+\left(1-0,0001057(\gamma_{\text{lv}} - \gamma_{\text{sv}})^2\right)
+\end{equation}
+\par 
+
+\subsection{Li-Neumann metoda}
+\begin{equation}
+	\cos\theta = -1 + 
+	2 {\left( \frac{\gamma_{\text{sv}}} {\gamma_{\text{lv}}} \right)}^{1/2} 
+	\e^{-0,0001247(\gamma_{\text{lv}} - \gamma_{\text{sv}})^2}
+\end{equation}
+\par 
+
+
+
 
 
 \section{Závěr}
