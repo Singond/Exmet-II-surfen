@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  11 OCT 2022 22:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  11 OCT 2022 22:43
 entering extended mode
 **./protokol.tex
 (protokol.tex
@@ -837,7 +837,23 @@ G,.JBIG2,.JB2,.eps]
 
 (D:\Programy\Miktex\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))) (protokol.aux)
+))) (protokol.aux
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.30 <
+      <<<<<< HEAD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: Label `napetiKapalin' multiply defined.
+
+)
 \openout1 = `protokol.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 62.
@@ -919,71 +935,55 @@ ing.png>]
 <img//seesystem.jpg, id=15, 732.7375pt x 549.05125pt>
 File: img//seesystem.jpg Graphic file (type jpg)
 <use img//seesystem.jpg>
-Package pdftex.def Info: img//seesystem.jpg  used on input line 134.
+Package pdftex.def Info: img//seesystem.jpg  used on input line 133.
 (pdftex.def)             Requested size: 435.32422pt x 326.19945pt.
 <img//seesystemsw.jpg, id=16, 1371.1225pt x 730.73pt>
 File: img//seesystemsw.jpg Graphic file (type jpg)
 <use img//seesystemsw.jpg>
-Package pdftex.def Info: img//seesystemsw.jpg  used on input line 143.
+Package pdftex.def Info: img//seesystemsw.jpg  used on input line 142.
 (pdftex.def)             Requested size: 483.69687pt x 257.77748pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[2 <./img//seesystem.jpg>]
-<img//zisman.png, id=21, 774.7344pt x 593.0958pt>
+<img//zisman.png, id=17, 774.7344pt x 593.0958pt>
 File: img//zisman.png Graphic file (type png)
 <use img//zisman.png>
-Package pdftex.def Info: img//zisman.png  used on input line 197.
+Package pdftex.def Info: img//zisman.png  used on input line 195.
 (pdftex.def)             Requested size: 369.88582pt x 283.16235pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-Overfull \hbox (3.2749pt too wide) in paragraph at lines 205--208
-\OT1/cmr/m/n/10.95 Li-Neumann a Kwok-Neumann me-tody jsou zalozene na bazi s
-ta-vove rov-nice $\OML/cmm/m/it/10.95 W[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/1
-0.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 [];[]\OT1/cmr/m/n/10.95 )$. Vy
-sledny
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[3 <./img//seesystemsw.jpg>] [4 <./img//zisman.png (PNG copy)>]
-<img//srovnani.png, id=32, 774.7344pt x 593.0958pt>
+[2] [3 <./img//seesystem.jpg>] [4 <./img//seesystemsw.jpg> <./img//zisman.png (
+PNG copy)>] [5]
+<img//srovnani.png, id=35, 774.7344pt x 593.0958pt>
 File: img//srovnani.png Graphic file (type png)
 <use img//srovnani.png>
-Package pdftex.def Info: img//srovnani.png  used on input line 347.
+Package pdftex.def Info: img//srovnani.png  used on input line 346.
 (pdftex.def)             Requested size: 369.88582pt x 283.16235pt.
+ [6 <./img//srovnani.png (PNG copy)>] [7] (protokol.aux)
 
+LaTeX Warning: There were multiply-defined labels.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[5] [6 <./img//srovnani.png (PNG copy)>] (protokol.aux) ) 
+ ) 
 Here is how much of TeX's memory you used:
- 35817 strings out of 478927
- 873012 string characters out of 2864768
- 1416692 words of memory out of 3000000
- 53250 multiletter control sequences out of 15000+600000
+ 35818 strings out of 478927
+ 873026 string characters out of 2864768
+ 1417692 words of memory out of 3000000
+ 53251 multiletter control sequences out of 15000+600000
  410506 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,13n,122p,675b,865s stack positions out of 5000i,500n,10000p,200000b,80000s
-<D:/Programy/Miktex/fo
-nts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programy/Miktex/fonts/type1/public/
-amsfonts/cm/cmex10.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmmi1
-0.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Programy
-/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programy/Miktex/fonts/type
-1/public/amsfonts/cm/cmr6.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/c
-m/cmr8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmss12.pfb><D:/Pr
-ogramy/Miktex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Programy/Miktex/f
-onts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programy/Miktex/fonts/type1/public
-/amsfonts/cm/cmsy8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmti1
-0.pfb>
-Output written on protokol.pdf (6 pages, 749494 bytes).
+ 117i,13n,122p,414b,865s stack positions out of 5000i,500n,10000p,200000b,80000s
+<D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programy/Mi
+ktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Programy/Miktex/fonts/type1/
+public/amsfonts/cm/cmmi10.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/c
+m/cmmi8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Pr
+ogramy/Miktex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Programy/Miktex/fonts
+/type1/public/amsfonts/cm/cmr8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfo
+nts/cm/cmss12.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmssbx10.p
+fb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programy/M
+iktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb><D:/Programy/Miktex/fonts/type1/
+public/amsfonts/cm/cmti10.pfb>
+Output written on protokol.pdf (7 pages, 752046 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 94 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

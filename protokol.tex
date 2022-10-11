@@ -73,7 +73,7 @@ $\gamma_{\text{lv}}$ je
 povrchové napětí mezi kapalinou a párou, $\gamma_{\text{sl}}$ je povrchové 
 napětí 
 mezi pevnou látkou a kapalinou. Kontaktní úhel $\theta$ je úhel měřený 
-v~kapalině na tomto rozhraní, viz obr.~\ref{wetting}. 
+v~kapalině na tomto rozhraní, viz~obr.~\ref{wetting}. 
 \begin{figure}[b]
 	\begin{center}
 		\includegraphics[width=\textwidth]{wetting.png}
@@ -91,8 +91,7 @@ např. otisky prstů mohou snížit povrchovou energii.
 \par Existuje několik metod, jak povrchovou energii určit. Nejjednodušší jsou 
 fixy, které jsou kalibrované pro danou hodnotu povrchové energie. Pokud fix 
 zanechá na povrchu malé kapičky, znamená to, že povrch má nižší povrchovou 
-energii než je uvedená hodnota na fixu. Tato metoda se nejčastěji užívá v 
-průmyslu, kde požadujeme, aby výrobek měl nižší (nebo vyšší) povrchovou energii 
+energii než je uvedená hodnota na fixu. Tato metoda se nejčastěji užívá v~průmyslu, kde požadujeme, aby výrobek měl nižší (nebo vyšší) povrchovou energii 
 než daná hodnota. Podobnou metodou jsou testovací inkousty. Jejich princip je 
 stejný jako u fixů, kapalinu nanášíme štětečkem na povrch. Fixy ani inkousty 
 nepotřebují přívod elektřiny či počítač, jsou ale drahé a mají krátkou 
@@ -186,9 +185,8 @@ ze které získáme hodnotu celkové povrchové energie $\gamma_{\text{c}}$. Ten
 fit jsme pro ukázku provedli na obr.~\ref{graph:zisman}. Z fitu jsme vyřadili 
 etylenglykol, jelikož jeho ponechání vedlo k nesmyslným hodnotám. Ze závislosti 
 určená celková povrchová energie je $\gamma_{\text{c}} = 
-(4,5\pm11,5)$\,\si{\milli\joule\per\meter\squared}. Přiložený software určil 
-$\gamma_{\text{c}} = 
-(5,7\pm16,9)$\,\si{\milli\joule\per\meter\squared}. Z chyb měření lze vidět, že 
+(4,5\pm11,5)$\,\si{\milli\joule\per\meter\squared}. Software měřicího přístroje určil 
+$\gamma_{\text{c}}~=~(5,7~\pm~16,9)$~\si{\milli\joule\per\meter\squared}. Z chyb měření lze vidět, že 
 tato 
 metoda není pro určení povrchové energie teflonu vhodná.
 
@@ -202,7 +200,7 @@ metoda není pro určení povrchové energie teflonu vhodná.
 \end{figure}
 
 \subsection{Li-Neumann metoda}
-\par Li-Neumann a Kwok-Neumann metody jsou založené na bázi stavové rovnice 
+\par Li-Neumann metoda je založená na stavové rovnici 
 $W_\text{sl}=f(\gamma_{\text{lv}},\gamma_{\text{sv}})$. Výsledný tvar rovnice 
 pro výpočet Li-Neumann metodou je
 \begin{equation}
@@ -232,7 +230,7 @@ $\gamma_{\text{c}} = (20,6\pm1,0)$\,\si{\milli\joule\per\meter\squared}.
 \end{table}
 
 \subsection{Kwok-Neumann metoda}
-\par Pro Kwok-Neumann metodu vycházíme z rovnice
+\par Pro Kwok-Neumann metodu, která stejně jako předchozí Li-Neumann metoda vychází ze stavové rovnice $W_\text{sl}=f(\gamma_{\text{lv}},\gamma_{\text{sv}})$, platí rovnice
 \begin{equation}
 	\cos\theta = -1 + 
 	2 {\left(\frac{\gamma_{\text{sv}}}{\gamma_{\text{lv}}}\right)}^{1/2} 
@@ -361,15 +359,32 @@ $\gamma^\text{AB} = (1,7\pm0,6)$\,\si{\milli\joule\per\meter\squared}
 
 
 \section{Závěr}
-V této úloze jsme se zabývali měřením povrchové energie  $\gamma_{\text{c}}$. Konkrétně jsme měřili povrchovou energii teflonu kapkovou metodou pomocí přístroje See System. Pro výpočet povrchové energie jsme použili několik metod, vstupními parametry pro výslednou hodnotu byly námi naměřené kontaktní úhly šesti různých kapalin. První metodou byla Zismanova. Pro ni jsme ke srovnání s hodnotou $\gamma_{\text{c}} = (5,7\pm16,9)$\,\si{\milli\joule\per\meter\squared} získanou ze softwaru See Systemu nafitovali danou závislost i ručně, přičemž nám vyšlo $\gamma_{\text{c}} = 
-(4,5\pm11,5)$\,\si{\milli\joule\per\meter\squared}. Obě hodnoty se v rámci chyby shodují, ta je ovšem příliš velká a tato metoda se tedy jeví jako nevhodná.
-
+V této úloze jsme se zabývali měřením povrchové energie  $\gamma_{\text{c}}$. 
+Konkrétně jsme měřili povrchovou energii teflonu kapkovou metodou pomocí 
+přístroje See System. Pro výpočet povrchové energie jsme použili několik metod, 
+vstupními parametry pro výslednou hodnotu byly námi naměřené kontaktní úhly 
+šesti různých kapalin. První metodou byla Zismanova. Pro ni jsme ke srovnání s 
+hodnotou $\gamma_{\text{c}} = 
+(5,7\pm16,9)$\,\si{\milli\joule\per\meter\squared} získanou ze softwaru See 
+Systemu nafitovali danou závislost i ručně, přičemž nám vyšlo 
+$\gamma_{\text{c}} = (4,5\pm11,5)$\,\si{\milli\joule\per\meter\squared}. Obě 
+hodnoty se v rámci chyby shodují, ta je ovšem příliš velká a tato metoda se 
+tedy jeví jako nevhodná. Z Li-Neumannovy metody vychází $\gamma_{\text{c}} = 
+(20,6\pm1,0)$\,\si{\milli\joule\per\meter\squared}. Kwok-Neumannova metoda dává 
+v rámci chyby stejný výsledek $\gamma_{\text{c}} = 
+(20,3\pm1,0)$\,\si{\milli\joule\per\meter\squared}, což je očekávané, protože 
+obě metody vychází ze stejné stavové rovnice. Zároveň odpovídají tabulkové 
+hodnotě $\gamma_{\text{c}} = 20$\,\si{\milli\joule\per\meter\squared} 
+\cite{napetiTeflon}.
 
 \begin{thebibliography}{10}
 	\bibitem{napetiKapalin} {\textit{Surface tension values of some common test 
 	liquids 
 	for surface energy analysis} [online]. Dostupné z: 
 	http://www.surface-tension.de/}
+	
+	\bibitem{napetiTeflon} {\textit{Solid surface energy data for common polymers} [online]. Dostupné z: http://www.surface-tension.de/solid-surface-energy.htm}
+
 	
 \end{thebibliography}
 
