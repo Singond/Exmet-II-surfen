@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  13 JUN 2022 13:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  5 OCT 2022 13:32
 entering extended mode
 **./protokol.tex
 (protokol.tex
@@ -907,41 +907,47 @@ ech.trsl' found. on input line 62.
 \makeMPintoPDFobject=\count354
 \everyMPtoPDFconversion=\toks57
 )
-<img//seesystem.jpg, id=4, 732.7375pt x 549.05125pt>
-File: img//seesystem.jpg Graphic file (type jpg)
-<use img//seesystem.jpg>
-Package pdftex.def Info: img//seesystem.jpg  used on input line 89.
-(pdftex.def)             Requested size: 483.69687pt x 362.44197pt.
-<img//seesystemsw.jpg, id=5, 1371.1225pt x 730.73pt>
-File: img//seesystemsw.jpg Graphic file (type jpg)
-<use img//seesystemsw.jpg>
-Package pdftex.def Info: img//seesystemsw.jpg  used on input line 98.
-(pdftex.def)             Requested size: 483.69687pt x 257.77748pt.
+<img//wetting.png, id=4, 834.7185pt x 236.082pt>
+File: img//wetting.png Graphic file (type png)
+<use img//wetting.png>
+Package pdftex.def Info: img//wetting.png  used on input line 77.
+(pdftex.def)             Requested size: 483.69687pt x 136.80516pt.
  [1
 
-{C:/Users/Radek/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-[2 <./img//seesystem.jpg> <./img//seesystemsw.jpg>] [3] (protokol.aux) ) 
+{C:/Users/Radek/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./img//wett
+ing.png>]
+<img//seesystem.jpg, id=15, 732.7375pt x 549.05125pt>
+File: img//seesystem.jpg Graphic file (type jpg)
+<use img//seesystem.jpg>
+Package pdftex.def Info: img//seesystem.jpg  used on input line 131.
+(pdftex.def)             Requested size: 483.69687pt x 362.44197pt.
+<img//seesystemsw.jpg, id=16, 1371.1225pt x 730.73pt>
+File: img//seesystemsw.jpg Graphic file (type jpg)
+<use img//seesystemsw.jpg>
+Package pdftex.def Info: img//seesystemsw.jpg  used on input line 140.
+(pdftex.def)             Requested size: 483.69687pt x 257.77748pt.
+ [2 <./img//seesystem.jpg>] [3 <./img//seesystemsw.jpg>] [4]
+(protokol.aux) ) 
 Here is how much of TeX's memory you used:
- 35780 strings out of 478927
- 872341 string characters out of 2864768
- 1414697 words of memory out of 3000000
- 53218 multiletter control sequences out of 15000+600000
+ 35793 strings out of 478927
+ 872576 string characters out of 2864768
+ 1410697 words of memory out of 3000000
+ 53229 multiletter control sequences out of 15000+600000
  410160 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 117i,10n,122p,414b,510s stack positions out of 5000i,500n,10000p,200000b,80000s
-<D:/Pro
-gramy/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programy/Miktex/font
-s/type1/public/amsfonts/cm/cmex10.pfb><D:/Programy/Miktex/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.p
-fb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programy/Mi
-ktex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Programy/Miktex/fonts/type1/pu
-blic/amsfonts/cm/cmr8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cm
-ss12.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Pr
-ogramy/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programy/Miktex/fon
-ts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on protokol.pdf (3 pages, 273509 bytes).
+ 117i,13n,122p,414b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
+<D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><
+D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmex10.pfb><D:/Programy/Mikte
+x/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Programy/Miktex/fonts/type1/pub
+lic/amsfonts/cm/cmmi8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cm
+r10.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmr6.pfb><D:/Program
+y/Miktex/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Programy/Miktex/fonts/type
+1/public/amsfonts/cm/cmss12.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts
+/cm/cmssbx10.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+<D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on protokol.pdf (4 pages, 569560 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 23 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 28 words of extra memory for PDF output out of 10000 (max. 10000000)
 
