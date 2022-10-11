@@ -105,6 +105,7 @@ profilu kapky, nehomogenita vzorku, sejmutí profilu před dosažením
 termodynamické rovnováhy, kontaminace měřicích kapalin aj.
 
 \section{Praktická část}
+\subsection{Měření kontaktního úhlu}
 \par Pro měření povrchové energie byl použit přístroj See System, viz 
 obr.~\ref{ss}. Přístroj je složen ze stolku o~velikosti $10 \times 10$~cm, 
 který lze dvěma stavěcími šrouby posouvat do všech směrů, a 2Mpix kamery, která 
@@ -117,18 +118,18 @@ zpracujeme. Na kapce zvolíme ručně tři body -- dvě na rozhraní pevná lát
 kapalina -- plyn a třetí bod na vrcholu kapky, čímž určíme kontaktní úhel pro 
 danou testovací kapalinu, viz obr.~\ref{ssw}. Pokud toto uděláme pro kapky 
 alespoň dvou různých kapalin, software dokáže spočítat povrchovou energii 
-pomocí běžných modelů.
-
+pomocí běžných modelů. 
 \par Měřili jsme povrchovou energii teflonu. Před měřením jsme povrch očistili 
 isopropylalkoholem. Následně jsme měřili kontaktní úhel šesti testovacích 
 kapalin: voda, etylenglykol, dijodometan, glycerol, formamid, 
 $\alpha$-bromnaftalen, kde u každé kapaliny jsme naměřili kontaktní úhel 10 
-kapek. Pro výpočet povrchové energie jsme použili několik 
-metod.
+kapek, viz tabulka~\ref{table:surfTensionLiquid}. Pro výpočet povrchové 
+energie jsme použili několik metod, které se liší svou komplikovaností, ale 
+také určením pro dané povrchy.
 
-\begin{figure}
+\begin{figure}[b]
 	\begin{center}
-		\includegraphics[width=\textwidth]{seesystem.jpg}
+		\includegraphics[width=0.9\textwidth]{seesystem.jpg}
 		\captionof{figure}{Přístroj See System pro měření kontaktního úhlu 
 		kapky a určení povrchové energie.}
 		\label{ss}
@@ -144,6 +145,22 @@ metod.
 	\end{center} 
 \end{figure}
 
+\begin{table}[h]
+	\caption{Naměřený kontaktní úhel $\theta$ a tabelované povrchové napětí 
+	$\gamma_{\text{l}}$ testovacích kapalin \cite{napetiKapalin}.}
+	\label{table:surfTensionLiquid}
+	\begin{tabular}{|c|c|c|}\hline
+		kapalina  & Kontaktní úhel $\theta$\,[\si{\deg}] &
+		$\gamma_{\text{l}}$\,[\si{\milli\joule\per\meter\squared}]\\ \hline
+		destilovaná voda & $102\pm4$ & 72,8                              \\
+		etylenglykol     & $88\pm4$ & 47,7                              \\
+		dijodometan      & $77\pm4$ & 50,8                              \\
+		glycerol         & $99\pm6$ & 64,0                              \\
+		formamid         & $91\pm2$ & 58,2                              \\
+		$\alpha$-bromnaftalen &$68\pm3$ & 44,4  \\ \hline
+	\end{tabular}
+\end{table}
+
 %HODNOTY $\gamma_{\text{l}}$
 %https://en.wikipedia.org/wiki/Surface-tension_values 
 %https://en.wikipedia.org/wiki/Glycerol_(data_page)
@@ -151,33 +168,58 @@ metod.
 %http://www.surface-tension.de/
 
 
+
+
 \subsection{Zismanova metoda}
 \par Zismanova metoda je založena na vynesení závislosti $\cos\theta = 
 f\left(\gamma_{\text{l}} \right)$ do grafu. Po naměření kontaktních úhlů 
 $\theta$ pro několik kapalin se známou hodnotou povrchové energie 
-$\gamma_{\text{l}}$ (tab.~\ref{table1:surfTensionLiquid}) můžeme fitovat 
+$\gamma_{\text{l}}$ (tab.~\ref{table:surfTensionLiquid}) můžeme fitovat 
 závislost rovnicí
 \begin{equation}
 	\cos\theta = 1 + 
 	b \left( \gamma_{\text{c}} - \gamma_{\text{l}} \right)
 \end{equation}
-z které získáme hodnotu celkové povrchové energie $\gamma_{\text{c}}$.
+z které získáme hodnotu celkové povrchové energie $\gamma_{\text{c}}$. Tento 
+fit jsme pro ukázku provedli na obr.~\ref{graph:zisman}. Z fitu jsme vyřadili 
+etylenglykol, jelikož jeho ponechání vedlo k nesmyslným hodnotám. Ze závislosti 
+určená celková povrchová energie je $\gamma_{\text{c}} = 
+(4,5\pm11,5)$\,\si{\milli\joule\per\meter\squared}. Přiložený software určil 
+$\gamma_{\text{c}} = 
+(5,7\pm16,9)$\,\si{\milli\joule\per\meter\squared}. Z chyb měření lze vidět, že 
+tato 
+metoda není pro určení povrchové energie teflonu vhodná.
 
-\begin{table}[h]
-	\caption{Povrchové napětí testovacích kapalin}
-	\label{table1:surfTensionLiquid}
-	\begin{tabular}{|c|c|}\hline
-		kapalina  & $\gamma_{\text{l}}$\,[\si{\milli\newton\per\meter}]\\ \hline
-		destilovaná voda   & 72,8                              \\
-		etylenglykol       & 47,7                              \\
-		dijodometan        & 50,8                              \\
-		glycerol           & 64,0                              \\
-		formamid           & 58,2                              \\
-		$\alpha$-bromnaftalen & 44,4  \\ \hline
-	\end{tabular}
-\end{table}
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=130mm]{zisman.png}
+	\caption{Závislost $\cos\theta = 
+		f\left(\gamma_{\text{l}} \right)$ pro určení $\gamma_{\text{c}}$ 
+		Zismanovou metodou.}
+	\label{graph:zisman}
+\end{figure}
+
+
+\subsection{Kwok-Neumann metoda}
+\begin{equation}
+	\cos\theta = -1 + 
+	2 {\left(\frac{\gamma_{\text{sv}}}{\gamma_{\text{lv}}}\right)}^{1/2} 
+	\left(1-0,0001057(\gamma_{\text{lv}} - \gamma_{\text{sv}})^2\right)
+\end{equation}
+\par 
+
+\subsection{Li-Neumann metoda}
+\begin{equation}
+	\cos\theta = -1 + 
+	2 {\left( \frac{\gamma_{\text{sv}}} {\gamma_{\text{lv}}} \right)}^{1/2} 
+	\e^{-0,0001247(\gamma_{\text{lv}} - \gamma_{\text{sv}})^2}
+\end{equation}
+\par 
 
 \subsection{Wu metoda}
+\par Tato teorie je vhodná pro vysoce energetické povrchy, tedy pro teflon také 
+není vhodná. Povrchovou energii $\gamma_{\text{c}} = 
+\gamma_{\text{s}}^{\text{d}} + \gamma_{\text{s}}^{\text{p}}$ určuje z rovnice
 \begin{equation}
 	\left(1+\cos\theta\right)\gamma_{\text{l}} = 
 	4\left(\frac{\gamma_{\text{s}}^\text{d}\gamma_{\text{l}}^\text{d}}{\gamma_{\text{s}}^\text{d}
@@ -185,7 +227,24 @@ z které získáme hodnotu celkové povrchové energie $\gamma_{\text{c}}$.
 	\frac{\gamma_{\text{s}}^\text{p}\gamma_{\text{l}}^\text{p}}{\gamma_{\text{s}}^\text{p}
 	 + \gamma_{\text{l}}^\text{p}}\right)
 \end{equation}
-\par 
+Software See System určil hodnotu povrchové energie teflonu pro každou 
+kapalinu (tab.~\ref{table:Wu}), kde jejich aritmetický průměr je 
+$\gamma_{\text{c}} = (15,0\pm1,6)$\,\si{\milli\joule\per\meter\squared}.
+
+\begin{table}[h]
+	\caption{Softwarem určené povrchové energie teflonu pomocí Wu metody.}
+	\label{table:Wu}
+	\begin{tabular}{|c|c|}\hline
+		kapalina  & Povrchová energie 
+		$\gamma_{\text{c}}$\,[\si{\milli\joule\per\meter\squared}] \\ \hline
+		destilovaná voda & $11,2 \pm 1,8$     \\
+		etylenglykol     & $12,8 \pm 2,1$     \\
+		dijodometan      & $19,2 \pm 2,3$     \\
+		glycerol         & $11,2 \pm 3,0$     \\
+		formamid         & $14,2 \pm 1,5$     \\
+		$\alpha$-bromnaftalen & $21,1 \pm 1,6$\\ \hline
+	\end{tabular}
+\end{table}
 
 \subsection{Owens-Wendtova regresní metoda}
 \begin{equation}
@@ -210,27 +269,24 @@ z které získáme hodnotu celkové povrchové energie $\gamma_{\text{c}}$.
 \end{equation}
 \par 
 
-\subsection{Kwok-Neumann metoda}
-\begin{equation}
-	\cos\theta = -1 + 
-2 {\left(\frac{\gamma_{\text{sv}}}{\gamma_{\text{lv}}}\right)}^{1/2} 
-\left(1-0,0001057(\gamma_{\text{lv}} - \gamma_{\text{sv}})^2\right)
-\end{equation}
-\par 
 
-\subsection{Li-Neumann metoda}
-\begin{equation}
-	\cos\theta = -1 + 
-	2 {\left( \frac{\gamma_{\text{sv}}} {\gamma_{\text{lv}}} \right)}^{1/2} 
-	\e^{-0,0001247(\gamma_{\text{lv}} - \gamma_{\text{sv}})^2}
-\end{equation}
-\par 
 
 
 
 
 
 \section{Závěr}
+<<<<<<< HEAD
 V této úloze jsme se zabývali měřením povrchové energie. Konkrétně jsme měřili povrchovou energii teflonu pomocí přístroje See System. Pro výpočet povrchové energie jsme použili několik metod, vstupními parametry pro výslednou hodnotu byly námi naměřené kontaktní úhly šesti různých kapalin. První metodou byla Zismanova. Pro ni jsme k hodnotě získané ze softwaru See Systemu ... nafitovali danou závislost i ručně, přičemž nám vyšlo ... . Obě hodnoty se v rámci chyby shodují, ta je ovšem příliš velká a tato metoda se tedy jeví jako nevhodná.
 
+=======
+
+\begin{thebibliography}{10}
+	\bibitem{napetiKapalin} {\textit{Surface tension values of some common test 
+	liquids 
+	for surface energy analysis} [online]. Dostupné z: 
+	http://www.surface-tension.de/}
+	
+\end{thebibliography}
+>>>>>>> faf8e540e6e640f6c65f24819df99514bd311feb
 \end{document}
