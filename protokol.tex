@@ -68,10 +68,12 @@ jednotky plochy $A$:
 	W = \gamma\Delta A
 \end{equation}
 Na rozhraní pevné látky, kapaliny a plynu jsou přítomná tři povrchová napětí: 
-$\gamma_{sv}$ je povrchová energie mezi pevnou látkou a párou, $\gamma_{lv}$ je 
-povrchová energie mezi kapalinou a párou, $\gamma_{sl}$ je povrchová energie 
+$\gamma_{\text{sv}}$ je povrchové napětí mezi pevnou látkou a párou, 
+$\gamma_{\text{lv}}$ je 
+povrchové napětí mezi kapalinou a párou, $\gamma_{\text{sl}}$ je povrchové 
+napětí 
 mezi pevnou látkou a kapalinou. Kontaktní úhel $\theta$ je úhel měřený 
-v~kapalině na tomto rozhraní, viz obr. \ref{wetting}. 
+v~kapalině na tomto rozhraní, viz obr.~\ref{wetting}. 
 \begin{figure}[b]
 	\begin{center}
 		\includegraphics[width=\textwidth]{wetting.png}
@@ -199,33 +201,83 @@ metoda není pro určení povrchové energie teflonu vhodná.
 	\label{graph:zisman}
 \end{figure}
 
-
-\subsection{Kwok-Neumann metoda}
-\begin{equation}
-	\cos\theta = -1 + 
-	2 {\left(\frac{\gamma_{\text{sv}}}{\gamma_{\text{lv}}}\right)}^{1/2} 
-	\left(1-0,0001057(\gamma_{\text{lv}} - \gamma_{\text{sv}})^2\right)
-\end{equation}
-\par 
-
 \subsection{Li-Neumann metoda}
+\par Li-Neumann a Kwok-Neumann metody jsou založené na bázi stavové rovnice 
+$W_\text{sl}=f(\gamma_{\text{lv}},\gamma_{\text{sv}})$. Výsledný tvar rovnice 
+pro výpočet Li-Neumann metodou je
 \begin{equation}
 	\cos\theta = -1 + 
 	2 {\left( \frac{\gamma_{\text{sv}}} {\gamma_{\text{lv}}} \right)}^{1/2} 
 	\e^{-0,0001247(\gamma_{\text{lv}} - \gamma_{\text{sv}})^2}
 \end{equation}
-\par 
+
+Software See System určil hodnotu povrchové energie teflonu pro každou 
+kapalinu (tab.~\ref{table:LiNeumann}), jejich aritmetický průměr je 
+$\gamma_{\text{c}} = (20,6\pm1,0)$\,\si{\milli\joule\per\meter\squared}.
+
+\begin{table}[h]
+	\caption{Softwarem určené povrchové energie teflonu pomocí Li-Neumann 
+	metody.}
+	\label{table:LiNeumann}
+	\begin{tabular}{|c|c|}\hline
+		kapalina  & Povrchová energie 
+		$\gamma_{\text{c}}$\,[\si{\milli\joule\per\meter\squared}] \\ \hline
+		destilovaná voda & $21,6 \pm 2,1$     \\
+		etylenglykol     & $16,4 \pm 2,1$     \\
+		dijodometan      & $23,3 \pm 2,1$     \\
+		glycerol         & $18,7 \pm 3,5$     \\
+		formamid         & $20,3 \pm 1,6$     \\
+		$\alpha$-bromnaftalen & $23,5 \pm 1,4$\\ \hline
+	\end{tabular}
+\end{table}
+
+\subsection{Kwok-Neumann metoda}
+\par Pro Kwok-Neumann metodu vycházíme z rovnice
+\begin{equation}
+	\cos\theta = -1 + 
+	2 {\left(\frac{\gamma_{\text{sv}}}{\gamma_{\text{lv}}}\right)}^{1/2} 
+	\left(1-0,0001057(\gamma_{\text{lv}} - \gamma_{\text{sv}})^2\right)
+\end{equation}
+
+Obdobným způsobem jako v předchozích případech software určil hodnotu povrchové 
+energie teflonu pro každou kapalinu (tab.~\ref{table:kwokNeumann}), jejich 
+aritmetický průměr je 
+$\gamma_{\text{c}} = (20,3\pm1,0)$\,\si{\milli\joule\per\meter\squared}.
+
+\begin{table}[h]
+	\caption{Softwarem určené povrchové energie teflonu pomocí Kwok-Neumann 
+	metody.}
+	\label{table:KwokNeumann}
+	\begin{tabular}{|c|c|}\hline
+		kapalina  & Povrchová energie 
+		$\gamma_{\text{c}}$\,[\si{\milli\joule\per\meter\squared}] \\ \hline
+		destilovaná voda & $21,5 \pm 1,8$     \\
+		etylenglykol     & $16,1 \pm 2,1$     \\
+		dijodometan      & $22,9 \pm 2,3$     \\
+		glycerol         & $18,4 \pm 3,0$     \\
+		formamid         & $19,9 \pm 1,5$     \\
+		$\alpha$-bromnaftalen & $23,2 \pm 1,6$\\ \hline
+	\end{tabular}
+\end{table}
 
 \subsection{Wu metoda}
-\par Tato teorie je vhodná pro vysoce energetické povrchy, tedy pro teflon také 
+\par Následující tři modely jsou založeny na Fowkesovy teorii a jsou považovány 
+za moderní modely. Fowkesova teorie bere v úvahu všechny síly, které působí 
+mezi kapalinou a pevnou látkou 
+\begin{equation}
+\gamma = \gamma^\text{d} + \gamma^\text{p} +
+\gamma^\text{h} + \gamma^\text{i} + \gamma^\text{ab} + ...
+\end{equation}
+\par Wu odvodil metodu kombinující harmonický a geometrický průměr. Tato metoda 
+je vhodná pro vysoce energetické povrchy, tedy pro teflon také 
 není vhodná. Povrchovou energii $\gamma_{\text{c}} = 
 \gamma_{\text{s}}^{\text{d}} + \gamma_{\text{s}}^{\text{p}}$ určuje z rovnice
 \begin{equation}
 	\left(1+\cos\theta\right)\gamma_{\text{l}} = 
 	4\left(\frac{\gamma_{\text{s}}^\text{d}\gamma_{\text{l}}^\text{d}}{\gamma_{\text{s}}^\text{d}
-	 + \gamma_{\text{l}}^\text{d}} + 
+		+ \gamma_{\text{l}}^\text{d}} + 
 	\frac{\gamma_{\text{s}}^\text{p}\gamma_{\text{l}}^\text{p}}{\gamma_{\text{s}}^\text{p}
-	 + \gamma_{\text{l}}^\text{p}}\right)
+		+ \gamma_{\text{l}}^\text{p}}\right)
 \end{equation}
 Software See System určil hodnotu povrchové energie teflonu pro každou 
 kapalinu (tab.~\ref{table:Wu}), kde jejich aritmetický průměr je 
@@ -247,6 +299,8 @@ $\gamma_{\text{c}} = (15,0\pm1,6)$\,\si{\milli\joule\per\meter\squared}.
 \end{table}
 
 \subsection{Owens-Wendtova regresní metoda}
+Rozšíření Fowkesovy teorie, kde interakční energie sil je vyjádřena jako 
+geometrický střed polárních a disperzních komponent kapaliny a pevné látky. 
 \begin{equation}
 	\frac{1+\cos\theta}{2}\frac{\gamma_{\text{l}}}{\sqrt{\gamma_{\text{l}}^\text{d}}}
 	 = \sqrt{\gamma_{\text{s}}^\text{d}} + \sqrt{\gamma_{\text{s}}^\text{p}} 
@@ -276,10 +330,7 @@ $\gamma_{\text{c}} = (15,0\pm1,6)$\,\si{\milli\joule\per\meter\squared}.
 
 
 \section{Závěr}
-<<<<<<< HEAD
 V této úloze jsme se zabývali měřením povrchové energie. Konkrétně jsme měřili povrchovou energii teflonu pomocí přístroje See System. Pro výpočet povrchové energie jsme použili několik metod, vstupními parametry pro výslednou hodnotu byly námi naměřené kontaktní úhly šesti různých kapalin. První metodou byla Zismanova. Pro ni jsme k hodnotě získané ze softwaru See Systemu ... nafitovali danou závislost i ručně, přičemž nám vyšlo ... . Obě hodnoty se v rámci chyby shodují, ta je ovšem příliš velká a tato metoda se tedy jeví jako nevhodná.
-
-=======
 
 \begin{thebibliography}{10}
 	\bibitem{napetiKapalin} {\textit{Surface tension values of some common test 
@@ -288,5 +339,5 @@ V této úloze jsme se zabývali měřením povrchové energie. Konkrétně jsme
 	http://www.surface-tension.de/}
 	
 \end{thebibliography}
->>>>>>> faf8e540e6e640f6c65f24819df99514bd311feb
+
 \end{document}
