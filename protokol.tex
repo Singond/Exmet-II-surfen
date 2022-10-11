@@ -128,7 +128,7 @@ kapek, viz tabulka~\ref{table:surfTensionLiquid}. Pro výpočet povrchové
 energie jsme použili několik metod, které se liší svou komplikovaností, ale 
 také určením pro dané povrchy.
 
-\begin{figure}[b]
+\begin{figure}[h]
 	\begin{center}
 		\includegraphics[width=0.9\textwidth]{seesystem.jpg}
 		\captionof{figure}{Přístroj See System pro měření kontaktního úhlu 
@@ -145,30 +145,6 @@ také určením pro dané povrchy.
 		\label{ssw}
 	\end{center} 
 \end{figure}
-
-\begin{table}[h]
-	\caption{Naměřený kontaktní úhel $\theta$ a tabelované povrchové napětí 
-	$\gamma_{\text{l}}$ testovacích kapalin \cite{napetiKapalin}.}
-	\label{table:surfTensionLiquid}
-	\begin{tabular}{|c|c|c|}\hline
-		kapalina  & Kontaktní úhel $\theta$\,[\si{\deg}] &
-		$\gamma_{\text{l}}$\,[\si{\milli\joule\per\meter\squared}]\\ \hline
-		destilovaná voda & $102\pm4$ & 72,8                              \\
-		etylenglykol     & $88\pm4$ & 47,7                              \\
-		dijodometan      & $77\pm4$ & 50,8                              \\
-		glycerol         & $99\pm6$ & 64,0                              \\
-		formamid         & $91\pm2$ & 58,2                              \\
-		$\alpha$-bromnaftalen &$68\pm3$ & 44,4  \\ \hline
-	\end{tabular}
-\end{table}
-
-%HODNOTY $\gamma_{\text{l}}$
-%https://en.wikipedia.org/wiki/Surface-tension_values 
-%https://en.wikipedia.org/wiki/Glycerol_(data_page)
-%https://pubchem.ncbi.nlm.nih.gov/compound/formamide#section=Heat-of-Vaporization
-%http://www.surface-tension.de/
-
-
 
 
 \subsection{Zismanova metoda}
@@ -190,6 +166,28 @@ $\gamma_{\text{c}}~=~(5,7~\pm~16,9)$~\si{\milli\joule\per\meter\squared}. Z chyb
 tato 
 metoda není pro určení povrchové energie teflonu vhodná.
 
+\begin{table}[h]
+	\caption{Naměřený kontaktní úhel $\theta$ a tabelované povrchové napětí 
+		$\gamma_{\text{l}}$ testovacích kapalin \cite{napetiKapalin}.}
+	\label{table:surfTensionLiquid}
+	\begin{tabular}{|c|c|c|}\hline
+		kapalina  & Kontaktní úhel $\theta$\,[\si{\deg}] &
+		$\gamma_{\text{l}}$\,[\si{\milli\joule\per\meter\squared}]\\ \hline
+		destilovaná voda & $102\pm4$ & 72,8                              \\
+		etylenglykol     & $88\pm4$ & 47,7                              \\
+		dijodometan      & $77\pm4$ & 50,8                              \\
+		glycerol         & $99\pm6$ & 64,0                              \\
+		formamid         & $91\pm2$ & 58,2                              \\
+		$\alpha$-bromnaftalen &$68\pm3$ & 44,4  \\ \hline
+	\end{tabular}
+\end{table}
+
+%HODNOTY $\gamma_{\text{l}}$
+%https://en.wikipedia.org/wiki/Surface-tension_values 
+%https://en.wikipedia.org/wiki/Glycerol_(data_page)
+%https://pubchem.ncbi.nlm.nih.gov/compound/formamide#section=Heat-of-Vaporization
+%http://www.surface-tension.de/
+
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=130mm]{zisman.png}
@@ -198,7 +196,7 @@ metoda není pro určení povrchové energie teflonu vhodná.
 		Zismanovou metodou.}
 	\label{graph:zisman}
 \end{figure}
-
+\newpage
 \subsection{Li-Neumann metoda}
 \par Li-Neumann metoda je založená na stavové rovnici 
 $W_\text{sl}=f(\gamma_{\text{lv}},\gamma_{\text{sv}})$. Výsledný tvar rovnice 
@@ -267,7 +265,7 @@ mezi kapalinou a pevnou látkou
 \gamma^\text{h} + \gamma^\text{i} + \gamma^\text{ab} + ...
 \end{equation}
 \par Wu odvodil metodu kombinující harmonický a geometrický průměr. Tato metoda 
-je vhodná pro vysoce energetické povrchy, tedy pro teflon také 
+je vhodná pro vysoce energetické povrchy, pro teflon tedy také 
 není vhodná. Povrchovou energii $\gamma_{\text{c}} = 
 \gamma_{\text{s}}^{\text{d}} + \gamma_{\text{s}}^{\text{p}}$ určuje z rovnice
 \begin{equation}
@@ -297,7 +295,7 @@ $\gamma_{\text{c}} = (15,0\pm1,6)$\,\si{\milli\joule\per\meter\squared}.
 \end{table}
 
 \subsection{Owens-Wendtova regresní metoda}
-Rozšíření Fowkesovy teorie, kde interakční energie sil je vyjádřena jako 
+Rozšiřuje Fowkesovu teorii, kde interakční energie sil je vyjádřena jako 
 geometrický střed polárních a disperzních komponent kapaliny a pevné látky. Po 
 naměření kontaktního úhlu několika kapalin software určí povrchovou energii 
 pomocí regresní metody:
@@ -309,8 +307,8 @@ pomocí regresní metody:
 \par Celková povrchová energie je $\gamma_{\text{c}} = (19,0 \pm 
 3,1)$\,\si{\milli\joule\per\meter\squared}, přičemž software dokáže určit i 
 složky povrchové energie -- Lifshitz Van der Waalsovu a acidobazickou: 
-$\gamma^\text{LW} = (18,3\pm3,0)$\,\si{\milli\joule\per\meter\squared}; 
-$\gamma^\text{AB} = (0,7\pm0,7)$\,\si{\milli\joule\per\meter\squared}
+$\gamma^\text{LW} = (18,3\pm3,0)$\,\si{\milli\joule\per\meter\squared}, respektive
+$\gamma^\text{AB}~=~(0,7~\pm~0,7)$\,\si{\milli\joule\per\meter\squared}
 
 
 \subsection{Acidobazická regresní metoda}
@@ -345,7 +343,7 @@ tabulkové hodnoty $\gamma_{\text{c}} =
 20,0$\,\si{\milli\joule\per\meter\squared} \cite{napetiTeflon}. Sledujeme, že 
 Zisman a Wu jsou nevhodné a nepřesné metody pro určení povrchové energie 
 teflonu, zatímco ostatní metody jsou vyhovující, přičemž Li-Neumann a 
-Kwok-Neumann jsou velmi přesné, v případě, že nedošlo při měření k chybám 
+Kwok-Neumann jsou velmi přesné, v~případě, že nedošlo při měření k chybám 
 uvedených v úvodní části.
 \begin{figure}[h!]
 	\centering
@@ -364,11 +362,10 @@ Konkrétně jsme měřili povrchovou energii teflonu kapkovou metodou pomocí
 přístroje See System. Pro výpočet povrchové energie jsme použili několik metod, 
 vstupními parametry pro výslednou hodnotu byly námi naměřené kontaktní úhly 
 šesti různých kapalin. První metodou byla Zismanova. Pro ni jsme ke srovnání s 
-hodnotou $\gamma_{\text{c}} = 
-(5,7\pm16,9)$\,\si{\milli\joule\per\meter\squared} získanou ze softwaru See 
+hodnotou $\gamma_{\text{c}}~=~(5,7~\pm~16,9)$\,\si{\milli\joule\per\meter\squared} získanou ze softwaru See 
 Systemu nafitovali danou závislost i ručně, přičemž nám vyšlo 
 $\gamma_{\text{c}} = (4,5\pm11,5)$\,\si{\milli\joule\per\meter\squared}. Obě 
-hodnoty se v rámci chyby shodují, ta je ovšem příliš velká a tato metoda se 
+hodnoty se v rámci chyby shodují, ta je ovšem příliš velká a~tato metoda se 
 tedy jeví jako nevhodná. Z Li-Neumannovy metody vychází $\gamma_{\text{c}} = 
 (20,6\pm1,0)$\,\si{\milli\joule\per\meter\squared}. Kwok-Neumannova metoda dává 
 v rámci chyby stejný výsledek $\gamma_{\text{c}} = 
