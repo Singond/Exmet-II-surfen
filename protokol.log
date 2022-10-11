@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  11 OCT 2022 19:29
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  11 OCT 2022 20:24
->>>>>>> fcbe5c4eae18ca8ee29e060ba733164eccc9dad4
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  11 OCT 2022 22:04
 entering extended mode
 **./protokol.tex
 (protokol.tex
@@ -1009,12 +1005,12 @@ png>]
 <img//seesystem.jpg, id=15, 732.7375pt x 549.05125pt>
 File: img//seesystem.jpg Graphic file (type jpg)
 <use img//seesystem.jpg>
-Package pdftex.def Info: img//seesystem.jpg  used on input line 134.
+Package pdftex.def Info: img//seesystem.jpg  used on input line 133.
 (pdftex.def)             Requested size: 435.32422pt x 326.19945pt.
 <img//seesystemsw.jpg, id=16, 1371.1225pt x 730.73pt>
 File: img//seesystemsw.jpg Graphic file (type jpg)
 <use img//seesystemsw.jpg>
-Package pdftex.def Info: img//seesystemsw.jpg  used on input line 143.
+Package pdftex.def Info: img//seesystemsw.jpg  used on input line 142.
 (pdftex.def)             Requested size: 483.69687pt x 257.77748pt.
 
 
@@ -1024,39 +1020,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <img//zisman.png, id=21, 774.7344pt x 593.0958pt>
 File: img//zisman.png Graphic file (type png)
 <use img//zisman.png>
-Package pdftex.def Info: img//zisman.png  used on input line 197.
+Package pdftex.def Info: img//zisman.png  used on input line 195.
 (pdftex.def)             Requested size: 369.88582pt x 283.16235pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (3.2749pt too wide) in paragraph at lines 205--208
-\OT1/cmr/m/n/10.95 Li-Neumann a Kwok-Neumann me-tody jsou zalozene na bazi s
-ta-vove rov-nice $\OML/cmm/m/it/10.95 W[] \OT1/cmr/m/n/10.95 = \OML/cmm/m/it/1
-0.95 f\OT1/cmr/m/n/10.95 (\OML/cmm/m/it/10.95 [];[]\OT1/cmr/m/n/10.95 )$. Vy
-sledny
- []
-
-
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[3 <./img//seesystemsw.jpg>]
-
-LaTeX Warning: Reference `table:kwokNeumann' on page 4 undefined on input line 
-243.
-
-[4 <./img//zisman.png (PNG copy)>] [5] [6] (protokol.aux)
-
-LaTeX Warning: There were undefined references.
-
- ) 
+[3 <./img//seesystemsw.jpg>] [4 <./img//zisman.png (PNG copy)>] [5] [6]
+(protokol.aux) ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 36411 strings out of 478681
- 904217 string characters out of 2846534
- 1417191 words of memory out of 3000000
- 54093 multiletter control sequences out of 15000+600000
+ 36414 strings out of 478681
+ 904267 string characters out of 2846534
+ 1421191 words of memory out of 3000000
+ 54096 multiletter control sequences out of 15000+600000
  410506 words of font info for 51 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,13n,118p,675b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1074,30 +1053,9 @@ fb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 amsfonts/cm/cmsy10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on protokol.pdf (5 pages, 673818 bytes).
-=======
- 35811 strings out of 478927
- 872870 string characters out of 2864768
- 1412692 words of memory out of 3000000
- 53244 multiletter control sequences out of 15000+600000
- 410814 words of font info for 52 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 117i,13n,122p,632b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
-<D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmbx10.pfb><D:/Programy/Mi
-ktex/fonts/type1/public/amsfonts/cm/cmbx12.pfb><D:/Programy/Miktex/fonts/type1/
-public/amsfonts/cm/cmex10.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/c
-m/cmmi10.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/P
-rogramy/Miktex/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Programy/Miktex/fon
-ts/type1/public/amsfonts/cm/cmr6.pfb><D:/Programy/Miktex/fonts/type1/public/ams
-fonts/cm/cmr8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmss12.pfb
-><D:/Programy/Miktex/fonts/type1/public/amsfonts/cm/cmssbx10.pfb><D:/Programy/M
-iktex/fonts/type1/public/amsfonts/cm/cmsy10.pfb><D:/Programy/Miktex/fonts/type1
-/public/amsfonts/cm/cmsy8.pfb><D:/Programy/Miktex/fonts/type1/public/amsfonts/c
-m/cmti10.pfb>
-Output written on protokol.pdf (6 pages, 686739 bytes).
->>>>>>> fcbe5c4eae18ca8ee29e060ba733164eccc9dad4
+Output written on protokol.pdf (6 pages, 677827 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
