@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  11 OCT 2022 17:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.10) (preloaded format=pdflatex 2021.11.24)  11 OCT 2022 18:39
 entering extended mode
 **./protokol.tex
 (protokol.tex
@@ -1017,11 +1017,11 @@ Package pdftex.def Info: img//seesystemsw.jpg  used on input line 140.
 Here is how much of TeX's memory you used:
  36398 strings out of 478681
  904002 string characters out of 2846534
- 1417192 words of memory out of 3000000
+ 1417191 words of memory out of 3000000
  54082 multiletter control sequences out of 15000+600000
  410160 words of font info for 50 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,13n,118p,414b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 115i,13n,118p,632b,731s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/amsfonts/cm/cmbx12.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/public/amsfonts/cm/cmex10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX
@@ -1035,7 +1035,7 @@ fb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmssbx10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmsy10.pfb><C:/Users/lukas/AppData/Local/Programs/MiKTeX/fonts/type
 1/public/amsfonts/cm/cmsy8.pfb>
-Output written on protokol.pdf (4 pages, 569549 bytes).
+Output written on protokol.pdf (4 pages, 570269 bytes).
 PDF statistics:
  76 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
